@@ -4,11 +4,11 @@ export default async function handler(req, res) {
     const SCHOOL_CODE = "8750473";
 
     const today = new Date();
-    const yyyymmdd =
-        today.getFullYear() +
+    const yyyymmdd = 20260814
+        /* today.getFullYear() +
         String(today.getMonth() + 1).padStart(2, "0") +
         String(today.getDate()).padStart(2, "0");
-
+        */
     const url =
         `https://open.neis.go.kr/hub/mealServiceDietInfo` +
         `?KEY=${API_KEY}` +
