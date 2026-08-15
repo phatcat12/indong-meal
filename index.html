@@ -2,5 +2,11 @@
 <html>
   <body>
     <h1>인동고 급식앱 테스트</h1>
+
+    <script>
+        fetch("/api/meal")  // 나이스가 아니라 네 함수를 부름
+            .then((res) => res.json())
+            .then((data) => console.log(data)); // 일단 콘솔에 찍히는지만 확인!
+    </script>
   </body>
 </html>
